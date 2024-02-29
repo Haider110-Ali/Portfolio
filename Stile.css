@@ -1,0 +1,16 @@
+/* CSS for grid layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-gap: 20px; /* Spacing between items */
+}
+
+.grid-item {
+    border: 1px solid #ccc; /* Optional: Add borders for visual separation */
+    padding: 10px;
+}
+
+img, video {
+    max-width: 100%; /* Ensure images and videos don't exceed their container */
+    height: auto;
+}
